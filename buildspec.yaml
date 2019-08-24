@@ -6,9 +6,9 @@ phases:
       - npm install
       - npm install -g hexo
   build:
-    commands;
+    commands:
       - hexo generate
-artifacts;
+artifacts:
   files:
     - '**/*'
   base-directory: 'public'
